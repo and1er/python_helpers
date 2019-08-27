@@ -50,6 +50,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/and1er/python_helpers',
-    version='version='0.2.0'',
+    version='version='0.2.1-dev'',
     zip_safe=False,
 )
