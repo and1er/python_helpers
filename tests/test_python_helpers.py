@@ -36,3 +36,17 @@ def test_command_line_interface():
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
+
+
+@pytest.mark.parametrize(
+    "test_input,desired_output",
+    (
+        (r'C:\Program Files\My Program', r'"C:\Program Files\My Program"'),
+        (r'323523523', r'"323523523"'),
+        (r'323523523', r'"323523523"'),
+        (r'/usr/bin/path', r'"/usr/bin/path"'),
+    )
+)
+def test_quote_string(test_input, desired_output):
+    """Test the quote_string() function"""
+    assert desired_output == python_helpers.quote_line(test_input)
