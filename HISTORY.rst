@@ -2,6 +2,11 @@
 History
 =======
 
+0.4.0 (2019-08-27)
+------------------
+
+* New functions: ``ensure_system_call()``, ``system_call()``, ``error_exit()``, ``ensure_file_exists()``.
+
 0.3.0 (2019-08-27)
 ------------------
 

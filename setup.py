@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = ['Click>=6.0', 'invoke>=1.0.0']
 
 setup_requirements = ['pytest-runner', ]
 
@@ -33,7 +33,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    description="Python Helpers contains reusable functions for routine automation.",
+    description="Python Helpers contains reusable functions for routine automation.",  # noqa: E501
     entry_points={
         'console_scripts': [
             'python_helpers=python_helpers.cli:main',

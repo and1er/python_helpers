@@ -50,3 +50,19 @@ def test_command_line_interface():
 def test_quote_string(test_input, desired_output):
     """Test the quote_string() function"""
     assert desired_output == python_helpers.quote_line(test_input)
+
+
+# TODO: does not work
+# @pytest.mark.parametrize(
+#     "input_cmd",
+#     (
+#         ('python', '-V')
+#     )
+# )
+# def test_system_call(input_cmd):
+#     """Test system_call() function"""
+#     result = python_helpers.system_call(('python', '-V', '>/dev/null'))
+#     # result = python_helpers.system_call(input_cmd)
+#     assert True == True
+#     # assert 'python_helpers.cli.main' in result.output
+#     # assert None == python_helpers.system_call(input_cmd)
