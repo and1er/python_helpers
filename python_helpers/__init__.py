@@ -3,5 +3,5 @@
 """Top-level package for Python Helpers."""
 
 __author__ = """Andrei Losenkov"""
-__email__ = 'w.alosenkov@gmail.com'
+__email__ = 'andrei.losenkov@outlook.com'
 __version__ = '0.3.0'

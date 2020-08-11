@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Andrei Losenkov <w.alosenkov@gmail.com>
+* Andrei Losenkov <andrei.losenkov@outlook.com>
 
 Contributors
 ------------
